@@ -23,13 +23,13 @@
         <h4>Hi, I Am <span>Akito Yasashiku</span> 👋</h4>
         <p class="title">Creative Front-End Web Developer</p>
         <p class="subtitle">I'm Design And Code Beutifully SImple Things And I Love What I Doing</p>
-        <img src="images/Mirai Kuriyama.jpeg">
+        <img src="image/Mirai Kuriyama.jpg" width="300" alt="Profile Photo">
     </div>
 
     <div class="guarantee">
         <div class="item">
             <div class="icon">
-                <img src="images/check-shield-regular-24.png" />
+                <img src="image/check-shield-regular-24.png" />
             </div>
             <div class="info">
                 <h3>+5</h3>
@@ -39,7 +39,7 @@
         </div>
         <div class="item">
             <div class="icon">
-                <img src="images/check-circle-regular-24.png" />
+                <img src="image/check-circle-regular-24.png" />
             </div>
             <div class="info">
                 <h3>+5</h3>
@@ -49,7 +49,7 @@
         </div>
         <div class="item">
             <div class="icon">
-                <img src="images/task-regular-24.png" />
+                <img src="image/task-regular-24.png" />
             </div>
             <div class="info">
                 <h3>+10</h3>
@@ -62,7 +62,7 @@
     <h5>Who I Am</h5>
 
     <div class="about">
-        <img src="images/logo working office.png">
+        <!-- <img src="image/logo working office.png"> -->
         <div class="info">
             <h3>About Me</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -85,7 +85,57 @@
         </div>
     </div>
 
-    <h5>My Skills</h5>
+    <section class="skills-table">
+        <h3>My Skills</h3>
+        <table border="1" cellspacing="0" cellpadding="10">
+            <thead>
+                <tr>
+                    <th>Technology</th>
+                    <th>Level</th>
+                    <th>Experience</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML5</td>
+                    <td>Beginner</td>
+                    <td>5 Months</td>
+                </tr>
+                <tr>
+                    <td>CSS3</td>
+                    <td>Beginner</td>
+                    <td>5 Months</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Beginner</td>
+                    <td>3 Months</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="contact form">
+        <h3>Contact Me</h3>
+        <form action="#">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Your Email"><br><br>
+
+            <label for="service">Service Needed:</label><br>
+            <select id="service" name="service">
+                <option value="web-dev">Web Development</option>
+                <option value="ui-ux">UI/UX Design</option>
+            </select><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
 </body>
 
 </html>
